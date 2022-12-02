@@ -4,7 +4,7 @@ body {
 	margin: 0;
 	background-image: url(/04-zkapp-browser-ui/_next/static/media/bg.3d486008.png);
 	background-repeat: no-repeat;
-	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	font-family: "Comic Sans MS";
 	font-size: 27px;
 	background-size: cover;
 	width: 100%;
@@ -173,7 +173,7 @@ a {
 	position: relative;	
 	width: 900px;
 	height: 600px;
-	transform: scale(1);
+	transform: scale(0.5);
 }
 
 .Home_homepageImg__fcRDd {
