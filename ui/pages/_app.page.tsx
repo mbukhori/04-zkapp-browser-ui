@@ -520,7 +520,7 @@ export default function App() {
 	  <Head>
         <title>zkApp [mbukhori]</title>
         <meta name="description" content="ZkApp By mbukhori" />
-		<meta name="viewport" content="width=1280, initial-scale=2.0"/>
+		<meta name="viewport" content="width=1024"/>
         <link href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAEvklEQVRYhe2XW2wUZRTHf2d2drfb2gu10HZbYzA1kQfLRYyghEcgJNJYQZ+KJMYE30x8MkYSQ3zyyUBM5EVDeRBDwGJMiDFivGAhhCCmmCpUjZRipbW7FHZ3Lt/xYfYysxfw+qQnmezsfOc7//93zv878w38103+yiSdTHehVhqhHzzF2FdAr8qK6bl/jYBe6h/AZwR0CGUlKCjBVb4351EZAzMqD85e/kcI6NTyblxnD/AcEA+AtDioVQTK9y6GtxD2yspfZv8yAf2+bz1GjoL21AeuR6LkA6DXMTwpa379rBGGdRvwpzCcRLUnAKkAGB88T1ETXJ4XPAv7oApGu0A/0rOdO/4UAf02/Sg+B1GSQaBKUOMpWdmEs2wfmXwPmUIap3s/WWszxtcKeIVMEuSQnunY+IcI6NSybiw5imoyGkwxvuK6SnLpMM0925HUGiS1mube7SSXDmNKREOEMQqqCbAO67m7lt45A469B6PdlcnFtHuQlU2YvgMk2tcCkOrbTapvNwB2ywCLPEQ+r1WlKJPpMa79SjVcRIQ60T+AmIugNWr3PHB7D5Dq3lYvk2XLzRxFp56nOeFRFiagARlHbF0hD2emSv52lI7ZiWq8/h7XiOvCN88ixehiLyHV9wzxtkFSvcNk5j5Fbx5CpAxcipPA0RHg1VKcqhKYoQY1rFyliQtjtLvHaXeO07r4DjcndpXH4ks24vlaBI+WRJWhMGKZgE6muzAMVgsvUsuw1dTZhMac4FlIQ6GFrNJTbZ21JfDcfowVDU5jAqZtGxkJfMTuouWeUgYU59oRmiSUsaieBM/0A/NRAn6st7yKep2uikTHqrepMfX47cILpBY/QRLVnTH0a0gDF6IE1FdU6k8oB6owyM28X3axYs0k7l6PZbfSOvAiN86eImEuBVusbhYqgUIZkBkiaavKQqjEAIWLu2hpkpKwyJh76djwFXbLclIrXseZeIKk3eA9EZOrpTiVXeDmrjRoIDU7AIIGYluKbSnxmNKsP1KYGwcg2bkO1wnNM6GYRpVcbLqGgDxyYw5jzkcVS1nJWlxppWSVoGoU1xdiTelgyM8HPaLeIlTPyZbsfG0JANQaA7MqnDaNvl7LrqZjG1kp/pcUyft3EG97AID8tRMkYqWyRZuawFgYsqoTuqMY6yWURA1wVIMsWXuQeuYsfI373cukbOroSR2MHAr7RzqhrM1cRjmg1RowioVSmH6PW9PH8HNBCZ250zhzpwFwMxMsjD+NM76R1ths3Wamhjdlc/6HhgQA8Ny9qF6rFqQlSlv+Q6zJnRTmA9Dc1H5yU/sDAtlJWhY/oCXhImEhVzrgjOUUXquGs6sfyGOLs/pl67AiJ1GS4fRbosQtyP58GHwHzZ5BFW799C6F6WMkJZLu8NbLi6/D8jjXa/BqMlA0/bx9h2JGoXgqCgU1RjEGYkVA3wTkgnRGRYeSF8OIbHWO1MO5/aH0i7Z16ptjlA6lNFxhbdsNbmfE6LBsdccbYTQ8lALIhuy4CIOqui9QcMPmEhEsiqNG3xDXGbwd+B0zEDb9uOk+hBFFhlBd3eB74JwYM0bMHq1W+98mECFzgk5iiT6M9APg6RVizrRsYf4OU/+3GvsdPD5jAu/D1tEAAAAASUVORK5CYII=" rel="icon" type="image/x-icon" />
 	  </Head>
 	  
@@ -578,6 +578,12 @@ export default function App() {
 				<a style={{display: 'block'}} href="https://github.com/mbukhori" target="_blank" rel="noopener noreferrer" >
 						<span className={styles.gitIcon}> </span>
 					</a>
+					
+				<a style={{display: 'block'}} href="https://web.facebook.com/muhammadbukhori" target="_blank" rel="noopener noreferrer" >
+						<span className={styles.fbIcon}> </span>
+					</a>
+					
+				<span id="blank" style={{visibility: 'hidden'}} className={styles.blank}> </span>
 			</div>
 					
 			</div>
